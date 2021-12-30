@@ -1,6 +1,7 @@
 article {
   border: black solid 4px;
   font-family: sans-serif;
+  line-height: 1.6em;
 }
 .product-title {
   text-align: center;
