@@ -63,6 +63,13 @@ article footer p {
 }
  */
 
+.container {
+  width: 700px;
+  /* margin-left: auto;
+   margin-right: auto; */
+  margin: 0 auto;
+}
+
 #author {
   font-style: italic;
   font-size: 18px;
@@ -76,6 +83,10 @@ article footer p {
 .related-author {
   font-size: 18px;
   font-weight: bold;
+}
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 .related {

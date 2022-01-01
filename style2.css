@@ -1,29 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 article {
-  border: black solid 4px;
+  border: black solid 3px;
   font-family: sans-serif;
   line-height: 1.6em;
+  width: 800px;
+  margin: 50px auto;
 }
 .product-title {
   text-align: center;
   background-color: gray;
   font-size: 22px;
   text-transform: uppercase;
+  padding: 15px;
 }
 .price {
   font-size: 24px;
-}
-.you {
-  margin-top: 20px;
+  margin-bottom: 3px;
 }
 
 .icon {
   color: rgba(204, 175, 140, 0.705);
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .link.link,
 .link:visited {
   color: black;
+}
+.link {
+  margin-bottom: 20px;
 }
 
 .link:hover,
@@ -34,18 +44,27 @@ article {
 .product-details {
   font-size: large;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .list {
   list-style: square;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.list li {
+  margin-bottom: 10px;
 }
 
 .button {
   background-color: black;
   color: white;
-  border: none;
+  border: black solid 2px;
   text-transform: uppercase;
   cursor: pointer;
   font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  border-top: black solid 3px;
 }
 .button:hover {
   background-color: white;
