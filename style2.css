@@ -12,6 +12,9 @@ article {
 .price {
   font-size: 24px;
 }
+.you {
+  margin-top: 20px;
+}
 
 .icon {
   color: rgba(204, 175, 140, 0.705);
