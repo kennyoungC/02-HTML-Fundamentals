@@ -4,3 +4,8 @@
 #side-bar {
   float: right;
 }
+#side-bar {
+  border: black solid 5px;
+  width: 250px;
+  height: 100px;
+}
