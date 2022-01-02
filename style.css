@@ -44,6 +44,21 @@ p {
   line-height: 1.5;
   margin-bottom: 15px;
 }
+nav a:link {
+  /* background-color: orangered;
+  margin-right: 30px;
+  margin-top: 10px;
+
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
 
 li {
   font-size: 19;
@@ -98,13 +113,14 @@ article footer p {
   padding: 20px;
   padding: 20px 40px;
   margin-bottom: 50px;
-  height: 80px;
+  /* height: 80px; */
 }
 .post-header {
   margin-bottom: 30px;
 }
 body {
   background-color: darkgray;
+  position: relative;
 }
 
 aside {
@@ -150,4 +166,13 @@ a:active {
 
 .you {
   margin-top: 20px;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
