@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.container {
+  width: 800px;
+  margin: 15 auto;
+}
 
 article {
   border: black solid 3px;
@@ -9,6 +13,7 @@ article {
   line-height: 1.6em;
   width: 800px;
   margin: 50px auto;
+  position: relative;
 }
 .product-title {
   text-align: center;
@@ -16,6 +21,9 @@ article {
   font-size: 22px;
   text-transform: uppercase;
   padding: 15px;
+}
+aside {
+  margin-bottom: 15px;
 }
 .price {
   font-size: 24px;
@@ -69,4 +77,59 @@ article {
 .button:hover {
   background-color: white;
   color: black;
+}
+.sale {
+  border: solid black 1px;
+  background-color: red;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  padding: 3px 12px;
+  position: absolute;
+  top: -15px;
+  left: -25px;
+}
+
+div {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -2px;
+}
+div:first-child {
+  margin-left: 0;
+}
+/* 
+#color {
+  display: inline-block;
+} */
+.color1 {
+  width: 15px;
+  height: 15px;
+  background-color: violet;
+}
+
+.color2 {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+}
+.color3 {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+}
+.color4 {
+  width: 15px;
+  height: 15px;
+  background-color: brown;
+}
+.color5 {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+}
+.color6 {
+  width: 15px;
+  height: 15px;
+  background-color: coral;
 }
