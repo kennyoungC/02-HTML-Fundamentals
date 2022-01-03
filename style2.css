@@ -1,107 +1,70 @@
 * {
   margin: 0;
   padding: 0;
-}
-.container {
-  width: 800px;
-  margin: 15 auto;
+  box-sizing: border-box;
 }
 
-article {
-  border: black solid 3px;
+body {
+  font-size: 18px;
   font-family: sans-serif;
   line-height: 1.6em;
-  width: 800px;
-  margin: 50px auto;
+  width: 825px;
+  margin: 0 auto;
+}
+.product {
+  border: black solid 3px;
   position: relative;
 }
-.product-title {
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  background-color: darkgray;
   text-align: center;
-  background-color: gray;
-  font-size: 22px;
-  text-transform: uppercase;
-  padding: 15px;
+  padding: 10px;
 }
-aside {
-  margin-bottom: 15px;
-}
+
 .price {
-  font-size: 24px;
-  margin-bottom: 3px;
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
 }
-
-.icon {
-  color: rgba(204, 175, 140, 0.705);
-  text-transform: uppercase;
-  margin-bottom: 15px;
+.shipping {
+  color: rgba(222, 184, 135, 0.582);
+  float: right;
+  padding-right: 22px;
 }
-
-.link.link,
-.link:visited {
-  color: black;
-}
-.link {
-  margin-bottom: 20px;
-}
-
-.link:hover,
-.link:active {
+a:link {
   text-decoration: none;
-}
-
-.product-details {
-  font-size: large;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.list {
-  list-style: square;
-  margin-bottom: 10px;
-  margin-left: 20px;
-}
-.list li {
-  margin-bottom: 10px;
-}
-
-.button {
-  background-color: black;
-  color: white;
-  border: black solid 2px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-size: 20px;
-  padding: 15px;
-  width: 100%;
-  border-top: black solid 3px;
-}
-.button:hover {
-  background-color: white;
   color: black;
 }
+a:hover {
+  text-decoration: underline;
+  color: red;
+  font-style: italic;
+}
+.more-info:link {
+  text-decoration: underline;
+}
+
 .sale {
-  /* border: solid black 1px; */
   background-color: red;
-  letter-spacing: 0.5em;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 3px 12px;
+  display: inline-block;
+  padding: 5px;
   position: absolute;
   top: -15px;
   left: -25px;
 }
 
-div {
+.color {
+  background-color: #000;
+  /* height: 22px;
+  width: 22px; */
   display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: -2px;
+  margin-right: 15px;
+  margin-top: 20px;
 }
-div:first-child {
-  margin-left: 0;
-}
-/* 
-#color {
-  display: inline-block;
-} */
 .color1 {
   width: 15px;
   height: 15px;
@@ -113,49 +76,74 @@ div:first-child {
   height: 15px;
   background-color: black;
 }
+
 .color3 {
   width: 15px;
   height: 15px;
   background-color: blue;
 }
+
 .color4 {
   width: 15px;
   height: 15px;
   background-color: brown;
 }
+
 .color5 {
   width: 15px;
   height: 15px;
   background-color: green;
 }
+
 .color6 {
   width: 15px;
   height: 15px;
   background-color: coral;
 }
-/* his own method */
+.product-details {
+  font-size: 18px;
+  text-transform: uppercase;
+  /* margin-top: 30px; */
+}
+.product-des {
+  clear: both;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.product-list {
+  margin-left: 22px;
+  list-style: square;
+  margin-bottom: 10px;
+}
+.add-cart {
+  font-size: 22px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  width: 100%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+.add-cart:hover {
+  background-color: white;
+  color: #000;
+}
+/* how we got 243 for the width and 40 for the marhin
+825-250- 40-  */
 
-/* 
-.color {
-  background-color: #000;
-  height: 22px;
-  width: 22px;
-  display: inline-block;
-  margin-right: 10px;
+.first {
+  float: left;
+  width: 243px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
-
-.color-blue {
-  background-color: #2f6ee2;
+.second {
+  float: left;
+  width: 243px;
+  margin-top: 20px;
 }
-.color-red {
-  background-color: #ec2f2f;
+.product-img {
+  float: left;
+  margin-right: 40px;
 }
-.color-yellow {
-  background-color: #f0bf1e;
-}
-.color-green {
-  background-color: #90cc20;
-}
-.color-brown {
-  background-color: #885214;
-} */
