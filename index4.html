@@ -18,17 +18,19 @@
           <a href="*">CSS Grid</a>
         </nav>
       </header>
-      <article class="first">
+      <article>
         <h2>the basic language of the web:HTML</h2>
-        <img
-          src="laura-jones.jpg"
-          alt="a picture of laura-jones"
-          width="50px"
-          height="50px"
-        />
-        <p class="author">
-          post by <strong>laura jones</strong> on monday, june 21st 2027
-        </p>
+        <div class="author-img">
+          <img
+            src="laura-jones.jpg"
+            alt="a picture of laura-jones"
+            width="50px"
+            height="50px"
+          />
+          <p class="author">
+            post by <strong>laura jones</strong> on monday, june 21st 2027
+          </p>
+        </div>
         <img
           class="font-img"
           src="post-img.jpg"
@@ -82,34 +84,40 @@
         </ul>
         <p>Hopefully you learned something new here. See you next time!</p>
       </article>
-      <aside class="second">
+      <aside>
         <h5>related posts</h5>
         <ul class="list3">
-          <li>
+          <li class="related-list">
             <img src="related-1.jpg" alt="a pics of a person programming" /
             width="75px" height="75px">
-            <a href="#">how to learn web development</a>
-            <p>by jonas schmedtmann</p>
+            <div>
+              <a href="#" class="related-link">how to learn web development</a>
+              <p class="related-author">by jonas schmedtmann</p>
+            </div>
           </li>
-          <li>
+          <li class="related-list">
             <img
               src="related-2.jpg"
               alt="lightening picture"
               width="75px"
               height="75px"
             />
-            <a href="#">the unknown power of CSS</a>
-            <p>by jim dillon</p>
+            <div>
+              <a href="#" class="related-link">the unknown power of CSS</a>
+              <p class="related-author">by jim dillon</p>
+            </div>
           </li>
-          <li>
+          <li class="related-list">
             <img
               src="related-3.jpg"
               alt="pics of html codes"
               width="75px"
               height="75px"
             />
-            <a href="#">how to learn web development</a>
-            <p>by Maltilda</p>
+            <div>
+              <a href="#" class="related-link">how to learn web development</a>
+              <p class="related-author">by Maltilda</p>
+            </div>
           </li>
         </ul>
       </aside>
