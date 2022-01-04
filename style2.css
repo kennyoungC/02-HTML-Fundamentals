@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-size: 18px;
   font-family: sans-serif;
@@ -22,7 +21,6 @@ h2 {
   text-align: center;
   padding: 10px;
 }
-
 .price {
   font-size: 22px;
   font-weight: bold;
@@ -44,7 +42,6 @@ a:hover {
   display: block;
   margin: 7px 0;
 }
-
 .sale {
   background-color: red;
   letter-spacing: 2px;
@@ -55,7 +52,6 @@ a:hover {
   top: -15px;
   left: -25px;
 }
-
 .colors {
   display: flex;
   gap: 10px;
@@ -66,19 +62,16 @@ a:hover {
   height: 15px;
   background-color: violet;
 }
-
 .color2 {
   width: 15px;
   height: 15px;
   background-color: black;
 }
-
 .color3 {
   width: 15px;
   height: 15px;
   background-color: blue;
 }
-
 .color4 {
   width: 15px;
   height: 15px;
@@ -90,7 +83,6 @@ a:hover {
   height: 15px;
   background-color: green;
 }
-
 .color6 {
   width: 15px;
   height: 15px;
