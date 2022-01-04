@@ -49,7 +49,7 @@ h2 {
   font-weight: bold;
   color: chocolate;
   margin-bottom: 30px;
-  display: inline-block;
+  display: block;
   position: relative;
 }
 h2::after {
@@ -59,10 +59,10 @@ h2::after {
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
-  padding: 2px 5px;
+  padding: 5px 10px;
   position: absolute;
-  top: -20px;
-  right: -35px;
+  top: -15px;
+  right: -25px;
 }
 
 .font-img {
@@ -208,5 +208,17 @@ aside {
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
+  margin-bottom: 0;
+}
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+}
+aside {
+  flex: 0 0 300px;
+}
+article {
+  flex: 1;
   margin-bottom: 0;
 }

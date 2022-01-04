@@ -26,12 +26,9 @@ h2 {
 .price {
   font-size: 22px;
   font-weight: bold;
-  float: left;
 }
 .shipping {
   color: rgba(222, 184, 135, 0.582);
-  float: right;
-  padding-right: 22px;
 }
 a:link {
   text-decoration: none;
@@ -44,6 +41,8 @@ a:hover {
 }
 .more-info:link {
   text-decoration: underline;
+  display: block;
+  margin: 7px 0;
 }
 
 .sale {
@@ -57,13 +56,10 @@ a:hover {
   left: -25px;
 }
 
-.color {
-  background-color: #000;
-  /* height: 22px;
-  width: 22px; */
-  display: inline-block;
-  margin-right: 15px;
-  margin-top: 20px;
+.colors {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0;
 }
 .color1 {
   width: 15px;
@@ -132,7 +128,7 @@ a:hover {
 /* how we got 243 for the width and 40 for the marhin
 825-250- 40-  */
 
-.first {
+/* .first {
   float: left;
   width: 243px;
   margin-right: 40px;
@@ -145,5 +141,22 @@ a:hover {
 }
 .product-img {
   float: left;
-  margin-right: 40px;
+  margin-right: 40px; 
+}*/
+.pands {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0;
+}
+.container {
+  display: flex;
+  gap: 30px;
+}
+.first {
+  flex: 0 0 243px;
+  margin-top: 30px;
+}
+.second {
+  flex: 0 0 243px;
+  margin-top: 30px;
 }
