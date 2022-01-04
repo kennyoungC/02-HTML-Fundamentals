@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -130,6 +130,7 @@ footer {
   font-style: italic;
   text-align: center;
   margin-top: 10px;
+  clear: both;
 }
 button {
   padding: 10px;
@@ -140,4 +141,17 @@ button {
   position: absolute;
   bottom: 50px;
   right: 15px;
+}
+.first {
+  float: left;
+  width: 725px;
+}
+.second {
+  float: left;
+  width: 400px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
