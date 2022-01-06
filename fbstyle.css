@@ -6,6 +6,7 @@ body {
   font-family: sans-serif;
   font-size: 18px;
   width: 800px;
+  background-color: rgb(226, 219, 219);
 }
 .nav-bar {
   display: flex;
@@ -41,6 +42,10 @@ body {
   padding-top: 10px;
   padding-left: 5px;
 }
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
 footer {
   background-color: gray;
 }
@@ -62,4 +67,18 @@ a {
 a:hover {
   font-style: italic;
   font-weight: bold;
+}
+.qlink {
+  color: black;
+  text-transform: lowercase;
+}
+.create {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+  width: 220px;
+  height: 50px;
+  cursor: pointer;
 }
