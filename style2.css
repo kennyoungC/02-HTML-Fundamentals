@@ -91,7 +91,7 @@ a:hover {
 .product-details {
   font-size: 18px;
   text-transform: uppercase;
-  margin: 15px;
+  margin-top: 20px;
 }
 .product-des {
   /* clear: both; */
@@ -101,7 +101,7 @@ a:hover {
 .product-list {
   margin-left: 22px;
   list-style: square;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .add-cart {
   font-size: 22px;
